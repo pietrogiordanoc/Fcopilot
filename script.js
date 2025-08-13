@@ -7,7 +7,7 @@ document.getElementById("photoForm").addEventListener("submit", async function (
   document.getElementById("status").textContent = "Enviando...";
 
   try {
-    const response = await fetch("https://FormGridBackend.replit.app/send", {
+    const response = await fetch("https://formerjackson4.replit.app/send", {
       method: "POST",
       body: formData,
     });
