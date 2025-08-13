@@ -43,10 +43,12 @@ Formulario web moderno para enviar fotos adjuntas por correo usando SendGrid.
 Creado por Pietro con ayuda de Copilot 🤖
 
 ## 🧩 Servicios usados
-App/Servicio	¿Para qué se usa?
-GitHub	Guarda el proyecto y su código
-Replit	Ejecuta el backend que envía correos
-SendGrid	Envía los correos con fotos adjuntas
-Vercel (opcional)	Publica el formulario web para que otros lo usen
+
+| App/Servicio | ¿Para qué se usa? |
+|--------------|-------------------|
+| **GitHub**   | Guarda el proyecto y su código |
+| **Replit**   | Ejecuta el backend que envía correos |
+| **SendGrid** | Envía los correos con fotos adjuntas |
+| **Vercel** *(opcional)* | Publica el formulario web para que otros lo usen |
 
 
