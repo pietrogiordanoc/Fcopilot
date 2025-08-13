@@ -16,7 +16,10 @@ app.use(express.static(path.join(__dirname, "../frontend")));
 const upload = multer({ storage: multer.memoryStorage() });
 
 app.post("/send", upload.array("photos"), async (req, res) => {
-  const { name, email, message } = req.body;
+console.log("BODY:", req.body);
+console.log("FILES:", req.files);
+  
+const { name, email, message } = req.body;
   const files = req.files;
 
   try {
