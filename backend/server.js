@@ -8,7 +8,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 app.use(cors({
-  origin: "https://focopilot-pietro-giordanos-projects.vercel.app"
+  origin: "https://fcpilot.vercel.app"
 }));
 
 app.use(express.static(path.join(__dirname, "../frontend")));
