@@ -7,7 +7,10 @@ const sendEmail = require("./sendgrid");
 const app = express();
 const port = process.env.PORT || 3000;
 
-app.use(cors());
+app.use(cors({
+  origin: "https://fcopilot.vercel.app"
+}));
+
 app.use(express.static(path.join(__dirname, "../frontend")));
 
 const upload = multer({ storage: multer.memoryStorage() });
